@@ -1,0 +1,14 @@
+.button {
+  border: 0;
+  padding: 6px;
+  margin-right: 6px;
+  cursor: pointer;
+
+  &--active {
+    background-color: rgb(31 147 255);
+  }
+
+  &--secondary {
+    background-color: rgb(148 255 134);
+  }
+}

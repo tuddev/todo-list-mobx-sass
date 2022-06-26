@@ -1,0 +1,52 @@
+.note {
+  margin: 0;
+  padding: 0;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+
+  &__checkbox {
+    margin-right: 14px;
+  }
+
+  &__container-text {
+    width: 100%;
+    padding: 6px;
+    background: white;
+    transition: 0.2s;
+
+    &:hover {
+      transition: 0.3s;
+      background: rgb(231 231 231);
+
+      @media (max-width: 600px) {
+        background: transparent;
+      }
+    }
+  }
+
+  &__text {
+    &--checked {
+      text-decoration: line-through;
+    }
+  }
+
+  &__title-input {
+    width: 100%;
+    padding: 6px;
+  }
+
+  &__control-buttons {
+    display: flex;
+  }
+}

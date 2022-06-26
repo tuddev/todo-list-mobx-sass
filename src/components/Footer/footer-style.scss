@@ -1,0 +1,38 @@
+.footer {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+  }
+
+  &__counter {
+    padding: 6px;
+
+    @media (max-width: 600px) {
+      padding-bottom: 0;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 600px) {
+      justify-content: flex-start;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__filter {
+    margin-right: 6px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

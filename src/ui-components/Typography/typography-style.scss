@@ -1,0 +1,18 @@
+.typography {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+
+  &--bold {
+    font-weight: 700;
+  }
+
+  &--large {
+    font-size: 72px;
+  }
+
+  &--center {
+    text-align: center;
+  }
+}

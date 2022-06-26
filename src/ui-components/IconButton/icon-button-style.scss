@@ -1,0 +1,16 @@
+.icon-button {
+  background-color: #fff;
+  border: 0;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+
+  &:hover {
+    transition: 0.3s;
+    background: rgb(231 231 231);
+
+    @media (max-width: 600px) {
+      background: transparent;
+    }
+  }
+}
