@@ -9,7 +9,7 @@ Todo list - это реализация списка дел с фильтрам�
 - TypeScript
 - React & React Hooks
 - MobX
-- Material UI
+- SCSS(BEM)
 
 ## Getting started
 
